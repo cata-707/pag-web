@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="admin.css">
+   <title>Administrar</title>
+</head>
+
+  <body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo pequeño.png" alt="Imagen" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="admin.html">Administrar</a></li>
+          </ul>
+          <form class="d-flex mx-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          </form>
+          <div class="d-flex align-items-center ms-3">
+            <a href="carrito.html" class="btn btn-outline-secondary me-2">
+            <i class="bi bi-cart4"></i>
+            </a>
+            <a href="login.html" class="btn btn-outline-secondary me-2">
+              <i class="bi bi-person-circle"></i>
+            </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>ADMINISTRACIÓN</h1>
+      <div class="row">
+        <div class="col-12">
+          <div class="table-wrapper">
+            <table class="table table-stock">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Stock</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>FENDER STRATO.</td>
+                  <td>$400.000</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>YAMAHA R.</td>
+                  <td>$1.200.000</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>
+                  FLAUTA DULCE</td>
+                  <td>$6.790</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>
+                  PANDERO</td>
+                  <td>$20.990</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>
+                  Tonic 61 teclas</td>
+                  <td>$119.200</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>
+                  Violin</td>
+                  <td>$300.000</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>
+                  Bajo</td>
+                  <td>$700.000</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>
+                  Güiro</td>
+                  <td>$6.990</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>
+                  Armónica</td>
+                  <td>$32.000</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>
+                  Acordeón</td>
+                  <td>$1.999.990</td>
+                  <td>1</td>
+                  <td><a href="/edit.html" button class="btn btn btn-outline-success" type="button">EDITAR PRODUCTO</a> </td>
+                </tr>
+                <tr>
+                  <td><a button class="btn btn btn-success" type="button">MÁS</a> </td>
+                </tr>
+
+                <!-- Aquí van las filas de productos, como en tu código original -->
+              </tbody>        
+            </table>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="table-wrapper">
+            <table class="table table-ventas">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Ventas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                   <th scope="row">1</th>
+                   <td>FENDER STRATO.</td>
+                   <td>1</td>
+                 </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>YAMAHA R.	</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>FLAUTA DULCE</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Tonic 61 teclas</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Violin</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Bajo</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Güiro</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Armónica</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Acordeón</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Saxofón alto</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Bongo</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Cajón</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Charango</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Metalofono 25 notas</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Pandero cuequero</td>
+                    <td>1</td>
+                  </tr>
+
+                <tbody class="table-group-divider">
+                 <tr>
+                   <th class="table-active" scope="row">TOTAL</th>
+                   <td class="table-active" >$7.005.030</td>
+                   <td class="table-active" ></td>
+                 </tr>
+
+                </tbody>
+
+                <!-- Aquí van las filas de ventas, como en tu código original -->
+              </tbody>        
+            </table>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <a href="/crear.html" class="btn btn-success">CREAR PRODUCTO</a>       
+        </div>    
+      </div>
+    </div>
+
+ </body>
+</html>

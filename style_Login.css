@@ -1,0 +1,41 @@
+
+.row {
+  padding-top: 10%;
+}
+.form {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.card{
+  box-shadow: 0px 0px 25px rgb(46, 46, 46,0.2);
+  color: black;
+  background-color: rgba(255, 255, 255,0.95);
+  padding: 10%;
+}
+body{
+  background-image: url('https://images.template.net/107009/free-blue-musical-background-edit-online.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+a.registrar{
+  text-align: right;
+  float: right;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .row {
+    padding-top: 5%; /* Ajusta el padding superior */
+  }
+
+  .card {
+    padding: 5%; /* Ajusta el padding interno */
+  }
+}

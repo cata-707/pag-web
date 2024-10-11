@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <html lang="es">  
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="crear.css">
+     <title>Editar producto</title>
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo pequeño.png" alt="Imagen" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categoría</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Guitarras</a></li> 
+              <li><a class="dropdown-item" href="#">Percución</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Audio</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="admin.html"">Administrar</a>
+          </li>
+        </ul>
+        <form class="d-flex mx-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+        <div class="d-flex align-items-center ms-3">
+          <a href="carrito.html" class="btn btn-outline-secondary me-2">
+          <i class="bi bi-cart4"></i>
+          </a>
+          <a href="login.html" class="btn btn-outline-secondary me-2">
+            <i class="bi bi-person-circle"></i>
+          </a>
+      </div>
+    </div>
+  </nav>
+  <div class="title"> <h1><b>Editar producto</b></h1></div>
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6">
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Nombre del producto</label>
+          <input type="text" class="form-control" id="validationDefault01" value="STRATOCASTER" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Marca</label>
+          <input type="text" class="form-control" id="validationDefault02" value="FENDER" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Precio</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">$</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" value="400.000" required>
+          </div>
+        </div>
+        <div class="form-floating" >
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"> El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster HSS está repleta de auténtico estilo y sensación Fender. Está lista para hacer realidad tus ideas musicales, es lo suficientemente versátil para cualquier estilo de música y es la plataforma perfecta para crear tu propio sonido. </textarea>
+          <label for="floatingTextarea2">Descripción y especificaciones</label>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Categoría</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">CUERDAS</option>
+            <option>CUERDAS</option>
+            <option>PERCUSIÓN</option>
+            <option>VIENTOS</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault05" class="form-label">Codigo del producto</label>
+          <input type="text" class="form-control" id="validationDefault05" required value="XXXX">
+        </div>
+        <div class="col-12">        
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Publicar producto</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+    <div class="title"> <h2><b>AGREGAR IMAGÉNES</b></h2></div>
+      <div class="title"> <small><i>máximo 5 imagénes de 500x500</i></small></div>
+      <img
+        src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg"
+        alt="guitarra eléctrica" height="250" width="250"/>
+      <img src="https://cdn.icon-icons.com/icons2/1856/PNG/512/add-photo-alternate_116693.png" class="img-thumbnail" alt="add" height="250" width="250">
+    </div>
+    </div>
+  </div>
+</body>
+</html>

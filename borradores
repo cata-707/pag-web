@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="/inicio.html">Inicio</a></li>
+      <li><a href="/productos.html">Productos</a></li>
+      <li><a href="/Contacto.html">Contacto</a></li>
+      <li><a href="/login.html">Log in</a></li>
+    </ul>
+  </nav>
+  <div class="imagen">
+    <img src="https://img.freepik.com/vector-gratis/fondo-notas-musicales-gradiente_23-2151270119.jpg"
+      alt="imagen de instrumentos musicales de fondo" />
+  </div>
+  <div class="Catalogo">
+    <div class="Producto">
+      <h1><a href="/strato.html"> Guitarra eléctrica </a> </h1>
+      <img
+        src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg"
+        alt="guitarra eléctrica" />
+      <p>$400.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h1><a href="/drum.html">Batería</a></h1>
+      <img
+        src="https://musichall.cl/wp-content/uploads/2020/12/15D6511E9BA6482DAFD321BF988B5190_12073_1030x989_3efb135a21ec4fd18fb2d67590e7a681-1024x989.jpg"
+        alt="batería" />
+      <p>$1.200.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h1><a href="/flute.html">Flauta</a></h1>
+      <img src="https://biomusic.cl/wp-content/uploads/2019/10/2826.jpg" alt="flauta" />
+      <p>$6.790</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Pandero cuequero</h3>
+      <img src="https://www.tizonakids.cl/tienda/img/p/1/3/5/7/1357-large_default.jpg" alt="Pandero" />
+      <p>$20.990</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Teclado tonic de 61 teclas</h3>
+      <img src="https://cdnx.jumpseller.com/musicchile/image/24265859/resize/900/900?1652952666"
+        alt="Teclado tonic de 61 teclas" />
+      <p>$119.200</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Violin</h3>
+      <img src="https://casamusicalstrauss.com.pe/cdn/shop/files/VIOLINASTONVILLAAV-507-AV05BRILLO44.webp?v=1714407106"
+        alt="Violin" />
+      <p>$300.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Bajo</h3>
+      <img
+        src="https://audiomusicacl.vtexassets.com/arquivos/ids/167264/bajo-electrico-de-5-cuerdad-ibanez-sr505e-bm-211606-1.jpg?v=637801427217000000"
+        alt="Bajo" />
+      <p>$700.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Güiro</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/G%C3%BCiro_met%C3%A1lico.jpg" alt="Güiro" />
+      <p>$6.990</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Armónica</h3>
+      <img src="https://m.media-amazon.com/images/I/51GgMSmKaJL.jpg" alt="Armónica" />
+      <p>$32.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Acordeón</h3>
+      <img src="https://www.ecured.cu/images/e/ec/Acordeon.jpg" alt="Acordeón" />
+      <p>$125.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>saxofón alto</h3>
+      <img src="https://musichall.cl/wp-content/uploads/2021/10/YAMAHA_YAS-280-1-1024x1024.jpg" alt="saxofón alto" />
+      <p>$1.800.790</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Bongo</h3>
+      <img src="https://audiomusicacl.vtexassets.com/arquivos/ids/187322-800-auto?v=638375577418330000&width=800&height=auto&aspect=true" alt="Bongo" />
+      <p>$25.990</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Cajón</h3>
+      <img src="https://yaparu.com/wp-content/uploads/2022/05/EM-02193-3.jpg" alt="Cajón" />
+      <p>$98.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Charango</h3>
+      <img src="https://store.alvealpro.cl/3609-large_default/charango-profesional-c-funda-naranjillo-quispe.jpg"
+        alt="Charango" />
+      <p>$145.000</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+    <div class="Producto">
+      <h3>Metalofono 25 notas</h3>
+      <img
+        src="https://casaroyal.vtexassets.com/arquivos/ids/158568-800-800?v=638243927701170000&width=800&height=800&aspect=true"
+        alt="Metalofono" />
+      <p>$24.280</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #374140;
+  padding-left: 80px;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 60px;
+  height: 46px;
+}
+
+/* Cambiar el color del texto de la barra de navegación */
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+  color: #f0ad4e;
+  /* Cambia el color cuando el usuario pase el cursor sobre el enlace */
+}
+
+/* Cambiar el color del texto del botón activo */
+.navbar .nav-link.active {
+  color: #ffffff;
+  /* Cambia esto al color que desees para el enlace activo */
+}
+
+/* Cambiar el color del texto del botón deshabilitado */
+.navbar .nav-link.disabled {
+  color: #cccccc;
+  /* Cambia esto al color que desees para el enlace deshabilitado */
+}
+
+/* Centrar el formulario en la barra de navegación */
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  /* Centra el contenido horizontalmente */
+}
+
+form.d-flex {
+  width: 50%;
+  /* Ajusta el ancho del formulario si es necesario */
+}
+
+/* Estilo para los iconos dentro de los botones */
+.navbar .btn i {
+  color: white;
+  /* Color del icono por defecto */
+  font-size: 1.25rem;
+  /* Tamaño del icono (ajusta según tu necesidad) */
+}
+
+/* Estilo para los botones con iconos */
+.navbar .btn {
+  border: none;
+  /* Eliminar el marco del botón */
+  background-color: transparent;
+  /* Fondo transparente */
+}
+
+/* Cambiar color del icono al pasar el mouse */
+.navbar .btn:hover i {
+  color: #0d6efd;
+  /* Cambia a un color deseado (por ejemplo, azul de Bootstrap) */
+}
+
+/* Cambiar color del botón al pasar el mouse */
+.navbar .btn:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  /* Fondo semitransparente cuando se pasa el mouse (ajusta el color si es necesario) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; 
+}
+
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+
+.Producto {
+  text-decoration: none;
+  border: 1px solid #CCC;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.Producto img {
+  width: 100%; 
+  height: auto; 
+  max-width: 200px;
+}
+
+.Producto h1 a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Producto h1 a:hover {
+  color: #6b6b6b;
+}
+
+.title h1 {
+  color: #000000;
+  padding-left: 1%;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.title h4 {
+  color: #6b6b6b;
+  padding-left: 2%;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.item img {
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%; 
+  height: auto; 
+}
+
+.specs {
+  padding-left: 0;
+  display: inline-block;
+  text-align: center; 
+}
+
+.specs h1 {
+  line-height: 0.1em;
+  letter-spacing: 2px;
+}
+
+.specs p {
+  white-space: nowrap; 
+}
+
+.navbar {
+  background-color: #374140;
+  padding-left: 80px; /*agregado era 0*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+  height: 46px;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+  color: #f0ad4e;
+}
+
+.navbar .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar .nav-link.disabled {
+  color: #cccccc;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+form.d-flex {
+  width: 50%; 
+justify-content: center;
+}
+
+.navbar .btn i {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.navbar .btn {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar .btn:hover i {
+  color: #86b6fe;
+}
+
+.navbar .btn:hover {
+  background-color: rgb(194, 223, 255, 0.1);
+}
+
+.Catalogo {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+}
